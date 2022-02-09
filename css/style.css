@@ -184,3 +184,9 @@ body {
 .footer p {
     color: #F9FAF8;
 }
+
+@media only screen and (max-width: 1000px) {
+    .hero .hero-img img {
+        display: none;
+    }
+}
