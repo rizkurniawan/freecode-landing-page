@@ -1,0 +1,186 @@
+/* reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, arial, sans-serif;
+}
+
+/* element */
+.primary-btn {
+    background-color: #3882F6;
+    padding: 10px 28px;
+    border: 0;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+.secondary-btn {
+    background-color: #3882F6;
+    padding: 10px 28px;
+    border: 3px solid #F9FAF8;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    height: 75px;
+    width: 100%;
+    padding: 0 200px;
+    position: fixed;
+    z-index: 9999;
+}
+
+.header .logo h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header ul li {
+    list-style: none;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 125px 200px 75px;
+    background-color: #1F2937;
+    gap: 100px;
+}
+
+.hero-heading {
+    text-align: left;
+}
+
+.hero-heading h1, 
+.hero-heading p {
+    color: #F9FAF8;
+    margin-bottom: 15px;
+}
+
+.hero-img img {
+    max-width: 500px;
+}
+
+/* content */
+.content {
+    padding: 50px 200px 100px;
+    text-align: center;
+}
+
+.content h2 {
+    margin-bottom: 50px;
+}
+
+.content .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.content .cards .card {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.content .cards .card img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.content .cards .card p {
+    color: #1F2937;
+}
+
+/* quote */
+.quote {
+    padding: 100px 300px;
+    background-color: #E5E7EB;
+}
+
+.quote .quote-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .quote-content p {
+    align-self: flex-start;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: justify;
+}
+
+.quote .quote-content h2 {
+    align-self: flex-end;
+    font-size: 24px;
+}
+
+/* signup */
+.signup {
+    padding: 150px 200px;
+}
+
+.signup-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px 100px;
+}
+
+.signup .signup-section .wrap h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+.signup .signup-section .wrap p {
+    font-size: 16px;
+    color: #F9FAF8;
+}
+
+.signup .signup-section button {
+    flex-shrink: 0;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 75px;
+}
+
+.footer p {
+    color: #F9FAF8;
+}
